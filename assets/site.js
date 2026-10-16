@@ -1,0 +1,2 @@
+(function(){var b=document.querySelector('.menu'),n=document.getElementById('nav');if(b&&n)b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});var y=document.getElementById('y');if(y)y.textContent=new Date().getFullYear();})();
+(function(){var v=document.querySelector('.hero-video');if(v&&window.matchMedia('(prefers-reduced-motion: reduce)').matches){v.pause();v.removeAttribute('autoplay');}})();
