@@ -55,3 +55,30 @@ nav{width:100%;display:none}nav.open{display:block}nav ul{flex-direction:column;
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(rgba(16,13,12,.55),rgba(16,13,12,.72));z-index:1}
 .hero.has-video .wrap{position:relative;z-index:2;width:100%}
 @media(prefers-reduced-motion:reduce){.hero-video{display:none}}
+/* Blog */
+.narrow{max-width:820px}.center{text-align:center}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:40px}
+.chip{border:1px solid var(--blue);padding:6px 14px;text-decoration:none;font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;font-weight:600}
+.post-list{list-style:none;padding:0;margin:0 0 48px;display:grid;gap:22px}
+.post-card{border:1px solid var(--line);padding:24px 26px;background:var(--white)}
+.post-card h3{margin:4px 0 6px;font-size:1.25rem}.post-card h3 a{color:var(--dark);text-decoration:none}.post-card h3 a:hover{color:var(--gold)}
+.post-cat{margin:0;font-size:.75rem;text-transform:uppercase;letter-spacing:.16em;font-weight:700;color:var(--gold)}.post-cat a{color:var(--gold);text-decoration:none}
+.post-meta{font-size:.85rem;color:#666;margin:0 0 8px}
+.cat-list{max-width:820px;margin:0 auto 40px}
+.post-head{background:var(--dark);color:var(--white);padding:56px 0 44px;border-bottom:2px solid var(--gold)}
+.post-head h1{font-size:clamp(1.6rem,3.6vw,2.5rem);margin:10px 0 14px;color:var(--white)}
+.post-head .post-meta{color:#ccc}.post-head a{color:var(--gold)}
+.crumbs{font-size:.8rem;color:#bbb;letter-spacing:.06em}.crumbs a{color:#ddd}
+.post-body{padding-top:44px;padding-bottom:56px}
+.post-body h2{text-align:left;margin:44px 0 16px;font-size:clamp(1.3rem,2.6vw,1.7rem)}.post-body h2:after{margin-left:0}
+.post-body h3{margin:26px 0 8px}.post-img{width:100%;height:auto;margin-bottom:24px;border:1px solid var(--line)}
+.faq-item{border-left:3px solid var(--gold);padding:2px 0 2px 18px;margin-bottom:18px}.faq-item h3{margin:0 0 4px;font-size:1rem;text-transform:none;letter-spacing:.02em;font-family:"Urbanist",sans-serif;font-weight:700}.faq-item p{margin:0}
+.post-bottom{background:var(--off);border:1px solid var(--line);padding:6px 26px 14px;margin-top:40px}
+.post-sources ol{font-size:.9rem}
+.author-box{display:flex;gap:20px;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;margin:36px 0}
+.author-box img{width:96px;height:auto;border:1px solid var(--line)}.author-box p{margin:0 0 6px}
+.post-related ul{columns:2;padding-left:20px}
+.sample-banner{background:#b00020;color:#fff;text-align:center;font-weight:700;letter-spacing:.08em;margin:0;padding:10px}
+@media(max-width:860px){.post-related ul{columns:1}.author-box{flex-direction:column;align-items:flex-start}}
+.post-body section{padding:0}.post-body .post-bottom{padding:6px 26px 14px}
+.brokerage{margin-bottom:0}
